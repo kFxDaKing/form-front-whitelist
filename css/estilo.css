@@ -1,0 +1,158 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.clear{
+    clear: both;
+    display: table;
+}
+.header-bar{
+    position: fixed;
+    width: 50%;
+    height: 900px;
+    background-color: d6e1ff;
+}
+.header-bar img{
+    /* width: 600px; */
+    margin: -123px auto; /*CENTRALIZAR*/
+    margin-left: 30px;
+    left: 35px;
+
+}
+.header-bar p{
+    text-align: justify;
+    padding: 25px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 1.5em;
+    color: #9f9f9f;
+}
+.form-body{
+    position: relative;
+    float: right;
+    height: 1550px;
+    width: 50%;
+    /* background-image: url("../img/degrade.png") */
+    background-color: #2a50a3; 
+}
+
+.cadastro{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #fff
+}
+h1{
+    font-size: 2em;
+    color: #FFF;
+}
+.area-input{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.area-input p{
+    text-align: justify;
+    color: #e6eeff;
+    font-size: 1.5em;
+}
+.area-input label{
+    top: 2px;
+    position: relative;
+    color: #b4d3db;
+    font-size: 1.5em;
+}
+.area-input input{
+    background-color: #fff;
+    border: 3px solid #e6e6e6;
+    border-radius: 5px;
+    margin-left: 15px;
+    padding: 10px;
+    margin-bottom: 30px;
+    transition: .3s;
+    color: #2a50a3;
+    outline: none !important;
+}
+.area-input input:hover{
+    background-color: #fff;
+}
+/* 
+input{
+    margin-left: -10px !important;
+    width: 400px !important;
+} */
+
+.input-nome input{
+    width: 400px;
+}
+.input-idade input, .idade-personagem{
+    width: 50px;
+}
+.perguntas h3{
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-top: 1px solid #FFF;
+    color: #fff;
+    font-size: 1.7em;
+}
+select{
+    padding: 10px;
+    border-radius: 10px;
+}
+.historia-personagem textarea{
+    width: 550px;
+    border-radius: 5px;
+    background-color: #D7EBF8;
+    border: none;
+    color: #2a50a3;
+    padding: 20px;
+}
+.historia-personagem textarea::placeholder{
+    color: #2a50a3;
+}
+.input-emprego{
+    margin-top: 30px;
+}
+.input-emprego select{
+    color: #2a50a3;
+    margin-left: 20px;
+}
+.perguntas select{
+    color: #2a50a3;
+    position: absolute;
+    width: 600px;
+}
+.input-submit{
+    padding: 50px;
+    margin-top: 140px;
+    text-align: center;
+}
+input[type=submit]{ 
+    cursor: pointer;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: .5s;
+    background: #FFF;
+    color: black;
+    border-radius: 30px;
+    font-weight: bold;
+    border: none;
+}
+input[type=submit]:hover{
+    background-color: #4cc2e8;
+    color: #FFF;
+}
+
+@media (max-width: 1280px){
+    .header-bar{
+        display: none;
+    }
+    .form-body{
+        width: 100%;
+    }
+}  

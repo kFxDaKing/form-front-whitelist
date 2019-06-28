@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sistema de Whitelist - AlvimShop</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="content-language" content="pt-br" />
+        <meta name="description" content="Faça sua inscrição para o ingresso em nosso servidor." />
+        <meta name="keywords" content="Sripts, VRP, Fivem, mods, gtav" />
+        <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+        <link rel="icon" type="image/png" href="icon/favicon.png"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/d43677dbe6.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header-bar">
+                <img src="img/Alvim.png" alt="Logo Alvim Roleplay">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum sem tristique, vestibulum erat at, 
+                    laoreet lacus. Duis nec fringilla mi. Donec eu pulvinar leo.
+                </p>
+                <p style="text-align: center;">Todos os direitos reservados © <font color="#2a50a3">Alvim Roleplay</font></p>
+            </div>
+            <div class="form-body">
+                <div class="cadastro">
+                    <h1>Cadastre-se</h1>
+                </div>
+                <div class="area-input">
+                    <form>
+                        <p>Preencha todos os campos com dados corretos, sendo assim, caso informações desconexas sejam inseridas o usuário não será aceito ou estará sujeito a banimento.</p>
+                        <div class="input-nome">
+                            <label for="nome">Nome:</label>
+                            <input id="input-nom"type="text" name="nome" minlength="1" maxlength="30" required>
+                        </div>
+                        <div class="input-idade">
+                                <label for="idade">Idade:</label>
+                                <input type="number" name="idade" required>
+                        </div>
+                        <div class="input-email">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" required>
+                        </div>
+                        <div class="input-discord">
+                            <label for="discord">Discord:</label>
+                            <input type="text" name="discord" minlength="1" maxlength="30" required>
+                        </div>
+                        <div class="input-nome-personagem">
+                                <label for="nome-personagem">Nome do Personagem:</label>
+                                <input class="nome-personagem" type="text" name="nome-personagem" minlength="1" maxlength="30" required>
+                        </div>
+                        <div class="input-idade-personagem">
+                                <label for="nome">Idade do Personagem:</label>
+                                <input class="idade-personagem" type="number" name="idade-personagem" minlength="1" maxlength="30" required>
+                        </div>
+                        <div class="historia-personagem">
+                            <label for="historia-personagem">Qual a história do personagem?</label><br><br>
+                            <textarea name="historia-personagem" required placeholder="Neste campo você deve explicar em algumas pavras a história do seu personagem."  rows="7" cols="80"></textarea>
+                        </div>
+                        <div class="input-emprego">
+                            <label for="emprego">Emprego do Personagem:</label>
+                            <select class="emprego" name="emprego"> 
+                                <option value="">Selecione...</option>
+                                <option value="Emprego-1">Emprego 1</option>
+                                <option value="Emprego-2">Emprego 2</option>
+                                <option value="Emprego-3">Emprego 3</option>
+                                <option value="Emprego-4">Emprego 4</option>
+                            </select>
+                        </div>
+                        <div class="perguntas">
+                            <h3>WhiteList:</h3>
+                            <label for="pergunta1">
+                                    1: Você está sendo sequestrado, o sequestrador assim que te abordou alegou cortar toda sua comunicação. Ainda assim você pode acessar o seu celular, o que você faria?
+                            </label><br><br>
+                            <select name="pergunta1">
+                                <option value="">Selecione...</option>
+                                <option value="1">Chamaria a policia</option>
+                                <option value="2">Chamaria algum amigo por telefone</option>
+                                <option value="3">Selecione...</option>
+                                <option value="4">Selecione...</option>
+                            </select>
+                        </div>
+                        <div class="input-submit">
+                            <input type="submit" value="Cadastrar">
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
